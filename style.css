@@ -1,0 +1,108 @@
+       body{
+        background: linear-gradient(to bottom, grey, black);
+        height: 100vh;
+        margin: 0;
+       }
+       #main-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: auto;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #stopwatch {
+            width: 50vw;
+            font-size: 60px;
+            color: rgb(207, 206, 206);
+
+        }
+
+        #btn {
+            margin: 5px;
+            padding: 10px 20px;
+            background-color: black;
+            color: white;
+            border-radius: 5px;
+            font-size: 15px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        #btn2 {
+            margin: 5px;
+            padding: 10px 20px;
+            background-color: red;
+            color: white;
+            border-radius: 5px;
+            font-size: 15px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        #btn1 {
+            margin: 5px;
+            padding: 10px 20px;
+            background-color: grey;
+            color: white;
+            border-radius: 5px;
+            font-size: 15px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        #btn:hover,
+        #btn2:hover,
+        #btn1:hover,
+        .btn:hover {
+            transform: scale(1.1);
+
+        }
+
+
+          #btn:hover{
+        background-color: rgb(61, 60, 60);;
+          }
+          
+          #btn1:hover , .btn:hover{      background-color: rgb(99, 98, 98);
+          }
+
+       #btn2:hover{    
+           background-color: rgb(214, 3, 3);
+          }
+
+
+          .para{
+            font-size: 40px;
+               color: rgb(207, 206, 206);
+          }
+
+
+          .btn {
+            padding: 2px 7px;
+            height: 30px; 
+            background-color: grey;
+            color: white;
+            border-radius: 5px;
+            font-size: 15px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            
+          
+          }
+
+          .wrapper{
+            display: flex;
+            flex-direction: column;
+
+          }
