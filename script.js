@@ -12,7 +12,7 @@ function clearAll(){
           result.innerHTML = "";
 }
 function clearp(element) {
-  element.parentElement.remove(); // Removes the saved time + its clear button
+  element.parentElement.remove(); 
 }
 function save() {
 
